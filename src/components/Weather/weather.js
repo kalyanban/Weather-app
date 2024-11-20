@@ -80,7 +80,7 @@ const Weather = () => {
 
   return (
     <div className='form-container'>
-      <h1>Weather App</h1>
+      <h1>Weather Now</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
