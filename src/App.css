@@ -1,0 +1,117 @@
+/* App.css */
+
+/* Set a full-screen background image */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 68vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ffeb3b;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #ffeb3b;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: black;
+  margin-right: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffeb3b;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+strong {
+  color: #f0ce79;
+}
+
+button:hover {
+  background-color: #fbc02d;
+  transform: scale(1.1);
+}
+
+.weather-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.weather-info h2 {
+  font-size: 1.8rem;
+  color: #ffeb3b;
+}
+
+.weather-info .day-night {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ffeb3b;
+}
+
+.error {
+  color: #f44336;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.weather-info .detail {
+  background: #333;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+}
